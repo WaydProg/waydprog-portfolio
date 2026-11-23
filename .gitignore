@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.firebase/
+*.log
+.env
+.env.*
+.DS_Store
+*.tsbuildinfo
+test-results/
+playwright-report/

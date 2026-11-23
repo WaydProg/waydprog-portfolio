@@ -1,0 +1,63 @@
+:root {
+  color-scheme: dark;
+
+  --color-bg: #101211;
+  --color-surface: #1a1c19;
+  --color-surface-raised: #212420;
+  --color-line: #2e312b;
+  --color-line-strong: #3d4139;
+  --color-text: #f0f1ea;
+  --color-text-soft: #e2e3dc;
+  --color-muted: #989e94;
+  --color-subtle: #868c84;
+  --color-accent: #d4f78a;
+  --color-accent-ink: #101211;
+  --color-accent-muted: #5d6449;
+
+  --tone-lime: #dfefb3;
+  --tone-lavender: #c7bfe7;
+  --tone-sage: #abb5a3;
+  --tone-sky: #b8cbea;
+  --tone-sand: #e6d6b8;
+  --tone-ink: #1d211b;
+
+  --font-sans: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: 'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace;
+
+  --text-2xs: 0.6875rem;
+  --text-xs: 0.75rem;
+  --text-sm: 0.8125rem;
+  --text-base: 0.9375rem;
+  --text-md: 1.0625rem;
+  --text-lg: 1.25rem;
+  --text-xl: clamp(1.5rem, 1.2rem + 1.2vw, 2rem);
+  --text-2xl: clamp(1.75rem, 1.3rem + 1.8vw, 2.5rem);
+  --text-display: clamp(2.5rem, 1.2rem + 5.2vw, 4.75rem);
+
+  --tracking-mono: 0.04em;
+  --tracking-tight: -0.025em;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 2.75rem;
+  --space-8: 4rem;
+  --space-9: 5.5rem;
+
+  --container: 73.75rem;
+  --gutter: clamp(1rem, 0.4rem + 3vw, 3.8rem);
+  --header-height: 4.625rem;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 14px;
+
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --duration-fast: 160ms;
+  --duration-base: 320ms;
+  --duration-slow: 520ms;
+
+  --focus-ring: 0 0 0 2px var(--color-bg), 0 0 0 4px var(--color-accent);
+}
